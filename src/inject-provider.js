@@ -1,5 +1,5 @@
+import ApolloClient from 'apollo-boost';
 import React from 'react';
-import {ApolloClient} from 'apollo-client';
 import {ApolloProvider} from 'react-apollo';
 
 // eslint-disable-next-line react/prop-types
