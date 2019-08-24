@@ -11,8 +11,10 @@ This plugin will set up a Gatsby project for use with [Apollo](https://www.apoll
 
 ## Installation
 
+If you're using this package, you'll also need to install `graphql` and some `@apollo/react-*` package. I personally recommend using `@apollo/react-hooks`, but you might want to use `@apollo/react-components` or `@apollo/react-hoc` instead.
+
 ```bash
-$ npm install gatsby-plugin-apollo
+$ npm install gatsby-plugin-apollo graphql
 ```
 
 ## Usage
