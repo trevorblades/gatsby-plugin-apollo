@@ -4,7 +4,7 @@ import fetch from 'isomorphic-fetch';
 import {ApolloProvider} from '@apollo/react-common';
 
 // eslint-disable-next-line react/prop-types
-export const wrapRootElement = ({element}, pluginOptions) => {
-  const client = new ApolloClient({...pluginOptions, fetch});
+export const wrapRootElement = ({element}, {uri}) => {
+  const client = new ApolloClient({fetch, uri});
   return <ApolloProvider client={client}>{element}</ApolloProvider>;
 };
