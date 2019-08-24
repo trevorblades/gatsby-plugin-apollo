@@ -6,10 +6,11 @@
   "repository": "trevorblades/gatsby-plugin-apollo",
   "license": "ISC",
   "scripts": {
-    "pretest": "eslint ./",
-    "test": "echo \"Error: no test specified\" && exit",
-    "build": "babel src --out-dir .",
-    "prepare": "npm run build"
+    "pretest": "eslint gatsby-*.js",
+    "test": "echo \"Error: no test specified\" && exit"
+  },
+  "eslintConfig": {
+    "extends": "@trevorblades/eslint-config/react"
   },
   "keywords": [
     "gatsby",
@@ -21,20 +22,15 @@
   ],
   "main": "index.js",
   "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.3.4",
-    "@babel/preset-env": "^7.3.4",
-    "@babel/preset-react": "^7.0.0",
-    "@trevorblades/eslint-config": "^6.21.0",
-    "apollo-boost": "^0.3.1",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.14.1",
-    "react": "^16.8.3",
-    "react-apollo": "^2.5.1"
+    "@apollo/react-common": "^3.0.1",
+    "@trevorblades/eslint-config": "^7.0.1",
+    "eslint": "^6.2.2",
+    "react": "^16.8.3"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.4.4"
   },
   "peerDependencies": {
-    "apollo-boost": ">=0.3",
-    "react": ">=16",
-    "react-apollo": ">=2"
+    "@apollo/react-common": ">=3.0.0"
   }
 }

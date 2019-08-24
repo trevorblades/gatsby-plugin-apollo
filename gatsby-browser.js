@@ -1,9 +1,9 @@
 import ApolloClient from 'apollo-boost';
 import React from 'react';
-import {ApolloProvider} from 'react-apollo';
+import {ApolloProvider} from '@apollo/react-common';
 
 // eslint-disable-next-line react/prop-types
-export default function injectProvider({element}, {uri}) {
-  const client = new ApolloClient({uri});
+export const wrapRootElement = ({element}, pluginOptions) => {
+  const client = new ApolloClient(pluginOptions);
   return <ApolloProvider client={client}>{element}</ApolloProvider>;
-}
+};
