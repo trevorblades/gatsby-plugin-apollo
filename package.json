@@ -1,10 +1,10 @@
 {
   "name": "gatsby-plugin-apollo",
   "version": "0.0.8",
-  "description": "Wraps the root element with ApolloProvider",
+  "description": "Set up a Gatsby project for use with Apollo, in the most minimal way imaginable",
   "author": "Trevor Blades <tdblades@gmail.com>",
   "repository": "trevorblades/gatsby-plugin-apollo",
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "pretest": "eslint gatsby-*.js",
     "test": "echo \"Error: no test specified\" && exit"
@@ -16,8 +16,8 @@
     "gatsby",
     "gatsby-plugin",
     "apollo",
-    "apollo-client",
-    "react-apollo",
+    "apollo-boost",
+    "react",
     "graphql"
   ],
   "main": "index.js",
