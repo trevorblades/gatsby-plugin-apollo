@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-apollo",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Wraps the root element with ApolloProvider",
   "author": "Trevor Blades <tdblades@gmail.com>",
   "repository": "trevorblades/gatsby-plugin-apollo",
