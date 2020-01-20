@@ -2,7 +2,7 @@
 
 This plugin will set up a Gatsby project for use with [Apollo](https://www.apollographql.com/docs/react/), in the most minimal way imaginable.
 
-**Note:** This plugin accepts [only a few](#options) of the [options accepted by Apollo Boost](https://www.apollographql.com/docs/react/essentials/get-started/#apollo-boost). If you need to use a more advanced Apollo Client configuration, use [gatsby-theme-apollo](https://github.com/apollographql/gatsby-theme-apollo) instead.
+**Note:** This plugin accepts [only a few](#options) of the [options accepted by Apollo Boost](https://www.apollographql.com/docs/react/essentials/get-started/#apollo-boost). If you need to use a more advanced Apollo Client configuration, use [gatsby-theme-apollo](https://github.com/apollographql/gatsby-theme-apollo/tree/master/packages/gatsby-theme-apollo) instead.
 
 - [Installation](#installation)
 - [Usage](#usage)
