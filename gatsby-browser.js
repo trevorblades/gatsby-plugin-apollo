@@ -1,7 +1,6 @@
-import ApolloClient from 'apollo-boost';
 import React from 'react';
 import fetch from 'isomorphic-fetch';
-import {ApolloProvider} from '@apollo/react-common';
+import {ApolloClient, ApolloProvider} from '@apollo/client';
 
 // eslint-disable-next-line react/prop-types
 export const wrapRootElement = ({element}, {uri, headers, credentials}) => {

@@ -1,6 +1,6 @@
 # gatsby-plugin-apollo
 
-This plugin will set up a Gatsby project for use with [Apollo](https://www.apollographql.com/docs/react/), in the most minimal way imaginable.
+This plugin will set up a Gatsby project for use with [Apollo Client](https://www.apollographql.com/docs/react/v3.0-beta), in the most minimal way imaginable.
 
 **Note:** This plugin accepts [only a few](#options) of the [options accepted by Apollo Boost](https://www.apollographql.com/docs/react/essentials/get-started/#apollo-boost). If you need to use a more advanced Apollo Client configuration, use [gatsby-theme-apollo](https://github.com/apollographql/gatsby-theme-apollo/packages/gatsby-theme-apollo) instead.
 
@@ -11,10 +11,10 @@ This plugin will set up a Gatsby project for use with [Apollo](https://www.apoll
 
 ## Installation
 
-If you're using this package, you'll also need to install `graphql` and some `@apollo/react-*` package. I personally recommend using `@apollo/react-hooks`, but you might want to use `@apollo/react-components` or `@apollo/react-hoc` instead.
+If you're using this package, you'll also need to install `@apollo/client`.
 
 ```bash
-$ npm install gatsby-plugin-apollo graphql
+$ npm install gatsby-plugin-apollo @apollo/client
 ```
 
 ## Usage
