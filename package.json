@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-apollo",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Set up a Gatsby project for use with Apollo, in the most minimal way imaginable",
   "author": "Trevor Blades <tdblades@gmail.com>",
   "repository": "trevorblades/gatsby-plugin-apollo",
