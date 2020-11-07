@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-apollo",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "A low-config way to use Apollo in a Gatsby website",
   "author": "Trevor Blades <tdblades@gmail.com>",
   "repository": "trevorblades/gatsby-plugin-apollo",
