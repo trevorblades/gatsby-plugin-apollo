@@ -1,14 +1,10 @@
 {
   "name": "gatsby-plugin-apollo",
   "version": "3.0.2",
-  "description": "A low-config way to use Apollo in a Gatsby website",
+  "description": "Set up your Gatsby project to use Apollo",
   "author": "Trevor Blades <tdblades@gmail.com>",
   "repository": "trevorblades/gatsby-plugin-apollo",
   "license": "MIT",
-  "scripts": {
-    "pretest": "eslint gatsby-*.js",
-    "test": "echo \"Error: no test specified\" && exit"
-  },
   "eslintConfig": {
     "extends": "@trevorblades/eslint-config/react"
   },
@@ -16,15 +12,14 @@
     "gatsby",
     "gatsby-plugin",
     "apollo",
-    "apollo-boost",
+    "apollo-client",
     "react",
     "graphql"
   ],
-  "main": "index.js",
   "devDependencies": {
     "@apollo/client": "^3.2.5",
-    "@trevorblades/eslint-config": "^7.2.1",
-    "eslint": "^6.2.2",
+    "@trevorblades/eslint-config": "^7.2.8",
+    "eslint": "^7.32.0",
     "react": "^16.8.3"
   },
   "dependencies": {
