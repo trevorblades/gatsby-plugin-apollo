@@ -3,6 +3,8 @@
 This plugin sets up your Gatsby project to use [Apollo Client](https://www.apollographql.com/docs/react). It wraps your app in an `ApolloProvider` so that you can use GraphQL queries and mutations in your components.
 
 ```js
+import {useQuery} from '@apollo/client';
+
 function Cupcake() {
   const {data, loading, error} = useQuery(GET_CUPCAKE); // <-- just works
 }
